@@ -11,7 +11,7 @@ Users should be able to:
 
 ### Links
 
-- [👉 Click here to see Live preview👈](https://codepapa360.github.io/Shopify-trial-page-design/)
+- [👉 Click here to see Live preview👈](https://shopify-landing-pag-design.netlify.app/)
 <br>
 
 - [👉 Shopify link👈](https://www.shopify.com/free-trial)
