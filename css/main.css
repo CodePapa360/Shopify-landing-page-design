@@ -1,0 +1,296 @@
+main {
+    max-width: 1440px;
+    margin: auto;
+    padding: 1.5rem;
+    position: relative;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-section {
+    text-align: center;
+    margin: 1rem auto 0;
+}
+
+main::before {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top: -30rem;
+    left: -40rem;
+    height: 70rem;
+    width: 70rem;
+    opacity: 0.8;
+    background: radial-gradient(circle, rgba(85, 251, 63, 0.24) 21%, rgba(197, 252, 70, 0.18) 44%, transparent, transparent);
+}
+
+main::after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    bottom: 0rem;
+    left: -30rem;
+    height: 50rem;
+    width: 70rem;
+    opacity: 0.8;
+    background: radial-gradient(circle, rgba(85, 251, 63, 0.24) 5%, rgba(197, 252, 70, 0.18) 30%, transparent, transparent);
+}
+
+.logo {
+    max-width: 7rem;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.main-heading {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 2rem;
+}
+
+.top-secondery-heading {
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.tiral-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem auto;
+    max-width: 32rem;
+}
+
+.tiral-form input {
+    padding: 0.8rem;
+    background-color: white;
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 5px;
+    outline: none;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.submit-btn {
+    padding: 0.8rem;
+    font-family: inherit;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.3s ease-out;
+
+-webkit-box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.13); 
+box-shadow: 0px 0px 31px 1px rgba(0,0,0,0.13);
+}
+
+.submit-btn:hover {
+    background-color: rgb(43, 43, 43);
+}
+
+.prompt {
+    font-size: 0.8rem;
+    max-width: 32rem;
+    margin: 0 auto 3rem;
+    text-align: center;
+}
+
+.home-image {
+    margin: auto;
+}
+
+.feature-section {
+    padding: 0 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 3rem auto 5rem;
+    position: relative;
+}
+
+.feature-section::after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top: -10rem;
+    right: -50rem;
+    height: 70rem;
+    width: 70rem;
+    opacity: 0.8;
+    background: radial-gradient(circle, rgba(85, 251, 63, 0.24) 21%, rgba(197, 252, 70, 0.18) 44%, transparent, transparent);
+}
+
+.feature-section div {
+    max-width: 20rem;
+}
+
+.feature-section img {
+    max-width: 3rem;
+    margin-bottom: 1rem;
+}
+
+
+.feature-section h1 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.feature-section p {
+    font-size: 0.9rem;
+    opacity: 0.6;
+}
+
+.company-logos-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    grid-gap: 2rem;
+    margin: 10rem auto;
+    position: relative;
+    max-width: fit-content;
+}
+
+.company-logos-section::before {
+    content: "";
+    position: absolute;
+    top: -3rem;
+    height: 1.5px;
+    width: 100%;
+    background-color: rgb(207, 207, 207);
+}
+
+.company-logos-section::after {
+    content: "";
+    position: absolute;
+    bottom: -3rem;
+    height: 1.5px;
+    width: 100%;
+    background-color: rgb(207, 207, 207);
+}
+
+.company-logos-section img {
+    max-width: 6rem;
+}
+
+.testimonial-section {
+    text-align: center;
+    margin-bottom: 6rem;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonial-section img {
+    margin: 0 auto 1rem;
+}
+
+.testimonial-section h1 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.testimonial-section h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.faq-section h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.questions {
+    margin: 3rem auto;
+    padding: 0 2rem;
+    max-width: 65rem;
+}
+
+.questions p {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    padding: 0 1.5rem 1rem 0;
+    position: relative;
+    cursor: pointer;
+}
+
+.questions p::after {
+    content: "+";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+footer {
+    text-align: center;
+    margin: 1rem;
+}
+
+footer a {
+    display: block;
+    margin-bottom: 0.1rem;
+    color: #008060;
+    font-size: 0.9rem;
+}
+
+@media (min-width: 490px) {
+    .tiral-form {
+        flex-direction: row;
+    }
+
+    .tiral-form .submit-btn {
+        width: 35%;
+    }
+}
+
+@media (min-width: 750px) {
+
+    main {
+        padding: 1.5rem 5rem;
+    }
+
+    .main-heading {
+        font-size: 4rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .feature-section {
+        margin: 6rem auto 10rem;
+    }
+
+    .testimonial-section h1 {
+        font-size: 1.9rem;
+    }
+
+    .questions {
+        margin-bottom: 7rem;
+    }
+
+    .questions p {
+        font-size: 1.1rem;
+    }
+
+    footer {
+        text-align: right;
+        padding: 0 10rem;
+    }
+
+    footer a {
+        display: inline-block;
+        margin-left: 1rem;
+    }
+}
