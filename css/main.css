@@ -24,6 +24,7 @@ main::before {
     height: 70rem;
     width: 70rem;
     opacity: 0.8;
+    background: -o-radial-gradient(circle, rgba(85, 251, 63, 0.24) 21%, rgba(197, 252, 70, 0.18) 44%, transparent, transparent);
     background: radial-gradient(circle, rgba(85, 251, 63, 0.24) 21%, rgba(197, 252, 70, 0.18) 44%, transparent, transparent);
 }
 
@@ -36,6 +37,7 @@ main::after {
     height: 50rem;
     width: 70rem;
     opacity: 0.8;
+    background: -o-radial-gradient(circle, rgba(85, 251, 63, 0.24) 5%, rgba(197, 252, 70, 0.18) 30%, transparent, transparent);
     background: radial-gradient(circle, rgba(85, 251, 63, 0.24) 5%, rgba(197, 252, 70, 0.18) 30%, transparent, transparent);
 }
 
